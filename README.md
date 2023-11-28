@@ -32,10 +32,12 @@ Si quieres hechas un vistazo al proyecto, te recomiendo:
 
 * [LinkedIn](https://www.linkedin.com/in/santiago-lanz-web-developer/)
 
-
 ## Instalación 
 Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz doble click en el .html
   
 ## Licencia 📄
 MIT Public License v3.0
 No puede usarse comencialmente.
+
+## Créditos
+Imagenes de <a href="https://www.freepik.es/foto-gratis/vista-adorable-3d-gato_45138581.htm#page=5&query=gatos%20dibujo%20fondo%20pantalla&position=27&from_view=search&track=ais&uuid=3cfd871f-57fd-4f28-91b8-029693baa267">Freepik</a> 
