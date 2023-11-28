@@ -1,0 +1,20 @@
+/*Customized classes for fonts, backgrounds and colors*/
+.f-barlow {
+    font-family: 'Barlow'
+}
+
+.f-blanka {
+    font-family: 'Blanka'
+}
+
+.f-montserrat {
+    font-family: 'Montserrat'
+}
+
+.f-spartan {
+    font-family: 'League Spartan'
+}
+
+.c-salmon {
+    background-color: rgb(240, 165, 133);
+}

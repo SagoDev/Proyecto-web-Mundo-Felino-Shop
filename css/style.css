@@ -1,3 +1,14 @@
-.c-softPink {
-    background-color: rgb(240, 181, 235);
+header {
+    background: url(/img/bg/bg-index.jpg);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@media(max-width:991px) {
+    .sidebar {
+        background-color: rgb(219, 165, 137);
+    }
 }

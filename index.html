@@ -2,60 +2,78 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Bootstrap link-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!--Personal link-->
-    <link rel="stylesheet" href="css/style.css">
-    <title>Mundo Felino Shop</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Bootstrap link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!--Fonts Links-->
+  <link href="https://fonts.cdnfonts.com/css/blanka" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/barlow" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/league-spartan" rel="stylesheet">
+  <!--Personal link-->
+  <link rel="stylesheet" href="css/classesStyle.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Mundo Felino Shop</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg c-softPink">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Mundo Felino Shop</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <hr>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        </li>
-                        <hr> 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Productos</a>
-                        </li>
-                        <hr>                        
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Otros
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">opcion 1</a></li>
-                                <li><a class="dropdown-item" href="#">opcion 2</a></li>
-                                <li><a class="dropdown-item" href="#">opcion 3</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+  <header class="vh-100">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-transparent navbar-dark">
+      <div class="container f-barlow">
+        <a class="navbar-brand fs-4 text-dark" href="#">MUNDO FELINO SHOP</a>
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+            <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
+              <li class="nav-item mx-2">
+                <a class="nav-link text-dark active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-dark" href="#">Productos</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-dark" href="#">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-dark" href="#">Contacto</a>
+              </li>
+            </ul>
+            <!--Login/Signin btn-->
+            <div class="d-flex justify-content-center align-items-center flex-column flex-lg-row gap-3">
+              <a href="" class="text-dark">Iniciar Sesión</a>
+              <a href="" class="text-dark text-decoration-none px-3 py-1 bg-danger-subtle rounded-4">Registrarme</a>
             </div>
-        </nav>
-    </header>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!--products section-->
+    <section class="vh-100 c-salmon">
+      <div class="container">
 
-    <!--Bootstrap script-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <!--Personal script-->
-    <script src="js/script.js"></script>
+      </div>
+    </section>
+  </main>
+  <!--Bootstrap script-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!--Personal script-->
+  <script src="js/script.js"></script>
 </body>
 
 </html>
