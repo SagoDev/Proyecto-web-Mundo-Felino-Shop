@@ -1,0 +1,74 @@
+{
+    "productos_healthcare_gatos": [
+      {
+        "id": 1,
+        "nombre": "Pipetas antipulgas",
+        "descripcion": "Pipetas para el control y prevención de pulgas y garrapatas en gatos",
+        "precio": 14.99,
+        "imagen": ""
+      },
+      {
+        "id": 2,
+        "nombre": "Suplemento vitamínico",
+        "descripcion": "Suplemento con vitaminas y minerales para la salud óptima de tu gato",
+        "precio": 11.99,
+        "imagen": ""
+      },
+      {
+        "id": 3,
+        "nombre": "Arena aglomerante",
+        "descripcion": "Arena para gatos aglomerante y de larga duración para el control de olores",
+        "precio": 19.99,
+        "imagen": ""
+      },
+      {
+        "id": 4,
+        "nombre": "Cepillo dental",
+        "descripcion": "Cepillo y pasta dental especialmente diseñados para la higiene bucal de gatos",
+        "precio": 8.99,
+        "imagen": ""
+      },
+      {
+        "id": 5,
+        "nombre": "Comedero elevado",
+        "descripcion": "Comedero ergonómico elevado para mejorar la postura al comer de tu gato",
+        "precio": 29.99,
+        "imagen": ""
+      },
+      {
+        "id": 6,
+        "nombre": "Arena silícea absorbente",
+        "descripcion": "Arena altamente absorbente que neutraliza los olores y facilita la limpieza",
+        "precio": 16.99,
+        "imagen": ""
+      },
+      {
+        "id": 7,
+        "nombre": "Shampoo hipoalergénico",
+        "descripcion": "Shampoo suave y hipoalergénico para bañar a tu gato sin irritar su piel",
+        "precio": 13.99,
+        "imagen": "ruta/imagen_shampoo.jpg"
+      },
+      {
+        "id": 8,
+        "nombre": "Cortauñas",
+        "descripcion": "Cortauñas seguro y preciso para mantener las uñas de tu gato bajo control",
+        "precio": 6.99,
+        "imagen": ""
+      },
+      {
+        "id": 9,
+        "nombre": "Cama ortopédica",
+        "descripcion": "Cama con soporte ortopédico para el descanso cómodo de tu gato",
+        "precio": 34.99,
+        "imagen": ""
+      },
+      {
+        "id": 10,
+        "nombre": "Snacks dentales",
+        "descripcion": "Snacks que ayudan a la limpieza dental y el aliento fresco de tu gato",
+        "precio": 7.99,
+        "imagen": ""
+      }
+    ]
+  }

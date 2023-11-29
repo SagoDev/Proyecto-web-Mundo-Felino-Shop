@@ -1,0 +1,84 @@
+{
+    "juguetes_gatos": [
+      {
+        "id": 1,
+        "nombre": "Juguete de ratón",
+        "descripcion": "Juguete interactivo en forma de ratón para entretener a tu gato",
+        "precio": 9.99,
+        "imagen": "",
+        "reviews":23
+      },
+      {
+        "id": 2,
+        "nombre": "Pelotas de colores",
+        "descripcion": "Set de pelotas de colores brillantes para jugar y ejercitar a tu gato",
+        "precio": 7.99,
+        "imagen": "",
+        "reviews":28        
+      },
+      {
+        "id": 3,
+        "nombre": "Caña con plumas",
+        "descripcion": "Caña de pescar con plumas para estimular el instinto de caza de tu gato",
+        "precio": 12.99,
+        "imagen": "",
+        "reviews":19
+      },
+      {
+        "id": 4,
+        "nombre": "Túnel de juego",
+        "descripcion": "Túnel plegable para que tu gato se divierta correteando y escondiéndose",
+        "precio": 19.99,
+        "imagen": "",
+        "reviews":21
+      },
+      {
+        "id": 5,
+        "nombre": "Peluche interactivo",
+        "descripcion": "Peluche que emite sonidos al ser presionado para estimular a tu gato",
+        "precio": 14.99,
+        "imagen": "",
+        "reviews":12
+      },
+      {
+        "id": 6,
+        "nombre": "Cañita con cascabeles",
+        "descripcion": "Caña con cascabeles para jugar y compartir momentos divertidos con tu gato",
+        "precio": 8.99,
+        "imagen": "",
+        "reviews":31
+      },
+      {
+        "id": 7,
+        "nombre": "Bolas de lana",
+        "descripcion": "Bolas suaves de lana para que tu gato juegue y las persiga",
+        "precio": 6.99,
+        "imagen": "",
+        "reviews":25
+      },
+      {
+        "id": 8,
+        "nombre": "Juguete de plumas",
+        "descripcion": "Varita con plumas para despertar el instinto cazador de tu gato",
+        "precio": 10.99,
+        "imagen": "",
+        "reviews":23
+      },
+      {
+        "id": 9,
+        "nombre": "Laberinto de bolas",
+        "descripcion": "Juguete con bolas en un laberinto para mantener entretenido a tu gato",
+        "precio": 24.99,
+        "imagen": "",
+        "reviews":27
+      },
+      {
+        "id": 10,
+        "nombre": "Ratón electrónico",
+        "descripcion": "Ratón electrónico que se mueve para estimular la curiosidad de tu gato",
+        "precio": 17.99,
+        "imagen": "",
+        "reviews":44
+      }
+    ]
+  }
