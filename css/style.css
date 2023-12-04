@@ -12,3 +12,16 @@ header {
         background-color: rgb(219, 165, 137);
     }
 }
+
+.card {
+    width: calc(100%/3);
+}
+
+.products-section{
+    height: 200vh;;
+}
+
+.btnBuy{
+    color: rgb(219, 165, 137) !important;
+    font-weight: bold;
+}
