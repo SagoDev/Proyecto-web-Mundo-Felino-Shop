@@ -1,5 +1,5 @@
 # Mundo Felino Shop
-![Imagen del proyecto]()
+![Imagen del proyecto](https://github.com/SagoDev/Proyecto-web-Mundo-Felino-Shop/blob/main/img/screenshots/Img%201.png?raw=true)
 
 ## Ejemplo en vivo
 - [URL-de-github-pages-de-este-proyecto](https://sagodev.github.io/Proyecto-web-Mundo-Felino-Shop/)
@@ -22,8 +22,8 @@ Proximamente daré feedback..
 ## Vista previa del proyecto
 Si quieres hechas un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto]()
-![Captura del proyecto]()
+![Captura del proyecto](https://github.com/SagoDev/Proyecto-web-Mundo-Felino-Shop/blob/main/img/screenshots/shot1.png?raw=true)
+![Captura del proyecto](https://github.com/SagoDev/Proyecto-web-Mundo-Felino-Shop/blob/main/img/screenshots/shot2.png?raw=true)
 ![Captura del proyecto]()
 ![Captura del proyecto]()
 
