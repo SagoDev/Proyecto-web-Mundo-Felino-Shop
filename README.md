@@ -24,7 +24,7 @@ Si quieres hechas un vistazo al proyecto, te recomiendo:
 
 ![Captura del proyecto](https://github.com/SagoDev/Proyecto-web-Mundo-Felino-Shop/blob/main/img/screenshots/shot1.png?raw=true)
 ![Captura del proyecto](https://github.com/SagoDev/Proyecto-web-Mundo-Felino-Shop/blob/main/img/screenshots/shot2.png?raw=true)
-![Captura del proyecto]()
+![Captura del proyecto](https://github.com/SagoDev/Proyecto-web-Mundo-Felino-Shop/blob/main/img/screenshots/shot3.png?raw=true)
 ![Captura del proyecto]()
 
 ## Autor ✒️
