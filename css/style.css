@@ -25,3 +25,9 @@ header {
     color: rgb(219, 165, 137) !important;
     font-weight: bold;
 }
+
+.smCarousel .card{
+    flex: 1 0 auto;
+    margin: 0 50px; 
+    text-align: center;   
+}

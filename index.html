@@ -65,18 +65,18 @@
     <!--products section-->
     <section class="products-section f-spartan">
       <div class="container bg-transparent">
-        <div class="vh-100">
+        <div class="">
           <div
-            class="top-text-field vh-25 d-flex justify-content-center align-items-center flex-column p-3 c-salmon rounded-5 rounded-top-0 f-barlow">
+            class="top-text-field text-center d-flex justify-content-center align-items-center flex-column p-3 c-salmon rounded-5 rounded-top-0 f-barlow">
             <div class="fs-2">Explora nuestras categorias, ve lo que tenemos para ofrecerte.</div>
             <div class="fs-5">Muchos regalos y cuidados para tus mascotas. Seguro les encantarán!</div>
           </div>
-          <div class="toys row vh-75">
-            <div class="col-md-4 title-toys-field d-flex align-items-center text-center f-barlow">
-              <div class="fs-1 f-spartan">Los mejores juguetes</div>
+          <div class="toys row">
+            <div class="col-md-4 title-toys-field fs-2 d-flex justify-content-center align-items-center text-center f-barlow mt-3">
+              <div class="fw-light c-salmon rounded-3 border shadow p-2">Los mejores juguetes</div>
             </div>
             <div class="col-md-8 f-barlow p-3">
-              <div id="carouselToys" class="carousel carousel-dark slide">
+              <div id="carouselToys" class="d-none d-md-flex carousel carousel-dark slide">
                 <div class="carousel-inner d-flex">
                   <div class="carousel-item active p-3">
                     <div class="card-wrapper d-flex gap-3" id="item-carousel-1">
@@ -101,13 +101,15 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
+              <div class="smCarousel d-flex justify-content-center flex-nowrap overflow-scroll d-md-none" id="smToys">                
+              </div>
             </div>
           </div>
         </div>
-        <div class="vh-100">
-          <div class="healthcare row vh-75">
-            <div class="col-md-8 f-barlow p-3">
-              <div id="carouselHealthcare" class="carousel carousel-dark slide">
+        <div class="">
+          <div class="healthcare row">
+            <div class="order-2 order-md-1 col-md-8 f-barlow p-3">
+              <div id="carouselHealthcare" class="d-none d-md-flex carousel carousel-dark slide">
                 <div class="carousel-inner d-flex">
                   <div class="carousel-item active p-3">
                     <div class="card-wrapper d-flex gap-3" id="item-carousel-4">
@@ -134,9 +136,12 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
+              <div class="smCarousel d-flex justify-content-center flex-nowrap overflow-scroll d-md-none" id="smHealthcare">
+                
+              </div>
             </div>
-            <div class="col-md-4 title-toys-field fs-1 d-flex justify-content-center align-items-center">
-              <h1 class="">El mejor cuidado</h1>
+            <div class="order-1 order-md-2 col-md-4 title-toys-field fs-2 f-barlow text-center d-flex justify-content-center align-items-center mt-3">
+              <div class="c-salmon fw-light p-2 rounded-3 border shadow">El mejor cuidado</div>
             </div>
           </div>
           <div
