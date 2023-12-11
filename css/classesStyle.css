@@ -1,18 +1,22 @@
 /*Customized classes for fonts, backgrounds and colors*/
 .f-barlow {
-    font-family: 'Barlow'
+    font-family: 'Barlow', sans-serif;
 }
 
 .f-blanka {
-    font-family: 'Blanka'
+    font-family: 'Blanka', sans-serif;
 }
 
 .f-montserrat {
-    font-family: 'Montserrat'
+    font-family: 'Montserrat', sans-serif;
 }
 
 .f-spartan {
-    font-family: 'League Spartan'
+    font-family: 'League Spartan', sans-serif;
+}
+
+.f-smooch{
+    font-family: 'Michroma', sans-serif;
 }
 
 .c-salmon {
