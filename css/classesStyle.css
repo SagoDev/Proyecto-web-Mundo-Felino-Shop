@@ -15,10 +15,18 @@
     font-family: 'League Spartan', sans-serif;
 }
 
-.f-smooch{
+.f-smooch {
     font-family: 'Michroma', sans-serif;
+}
+
+.f-poppin {
+    font-family: 'Poppins', sans-serif;
 }
 
 .c-salmon {
     background-color: rgb(240, 165, 133);
+}
+
+.text-grey{
+color:  #e6cbd4 ;
 }

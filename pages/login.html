@@ -15,14 +15,62 @@
     <link href="https://fonts.cdnfonts.com/css/league-spartan" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/sigmar" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/michroma-2" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
     <!--Personal link-->
-    <link rel="stylesheet" href="css/classesStyle.css">
+    <link rel="stylesheet" href="/css/classesStyle.css">
     <link rel="stylesheet" href="/css/loginStyle.css">
     <title>Login</title>
 </head>
 
 <body class="vh-100">
-
+    <header><!--Navbar-->
+        <nav class="navbar bg-transparent navbar-dark">
+            <div class="container f-barlow">
+                <a class="navbar-brand fs-4 text-dark" href="#">MUNDO FELINO SHOP</a>
+                <div class="d-flex justify-content-center align-items-center flex-column flex-lg-row gap-3">
+                    <a href="/index.html"
+                        class="text-dark text-decoration-none px-3 py-1 bg-danger-subtle rounded-4">Regresar</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Login Section-->
+    <div class="login-box d-flex justify-content-center align-items-center">
+        <div class="container f-poppin d-flex justify-content-center align-items-center">
+            <div class="login p-3">
+                <div class="top-header p-3">
+                    <header class="text-center text-dark fs-3">Iniciar Sesión</header>
+                </div>
+                <div class="input-field d-flex flex-column">
+                    <input type="text" class="form-control rounded-4 w-100" placeholder="Usuario" required>
+                    <i class="bi bi-person fs-4"></i>
+                </div>
+                <div class="input-field mb-3 d-flex flex-column">
+                    <input type="password" class="form-control rounded-4 w-100" placeholder="Contraseña" required>
+                    <i class="bi bi-lock fs-4"></i>
+                </div>
+                <div class="input-field mb-3 d-flex flex-column">
+                    <input type="submit" class="btn  w-100 rounded-4 btn-login" value="Iniciar Sesión">
+                </div>
+                <div class="bottom">
+                    <div class="left d-flex justify-content-between mb-3">
+                        <div class="box-1">
+                            <input type="checkbox" class="form-check-input" id="check">
+                            <label for="check" class="form-check-label">Recuérdame</label>
+                        </div>
+                        <div class="box-2">
+                            <label for=""><a style="color:  #524e5d;" href=""><small>¿Olvidaste tu
+                                        Contraseña?</small></a></label>
+                        </div>
+                    </div>
+                    <div class="right text-center">
+                        <span class="fs-6"><small>¿No tienes una cuenta? <a style="color:  #524e5d;"
+                                    href="">Registrarme</a></small></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

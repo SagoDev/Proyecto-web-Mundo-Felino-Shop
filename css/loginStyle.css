@@ -6,3 +6,39 @@ body {
     background-size: cover;
 
 }
+
+.form-control {
+    background: rgba(255, 255, 255, 0.6) !important;
+    border: none;
+    outline: none !important;
+    width: 87%;
+    height: 45px;
+    padding: 0 0 0 45px;
+
+}
+
+.login {
+    width: 400px;
+    height: 300px;
+}
+.login-box{
+    height: 75vh;
+}
+
+.btn-login {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    transition: .3s;
+    border: none !important;
+}
+
+.btn-login:hover {
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+i {
+    position: relative;
+    top: -40px;
+    left: 17px;
+    width: 5px;
+    
+}
