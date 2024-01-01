@@ -15,6 +15,7 @@
     <link href="https://fonts.cdnfonts.com/css/league-spartan" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/sigmar" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/michroma-2" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
     <!--Personal link-->
     <link rel="stylesheet" href="css/classesStyle.css">
     <link rel="stylesheet" href="/css/registerStyle.css">
@@ -22,7 +23,61 @@
 </head>
 
 <body class="vh-100">
-
+    <header><!--Navbar-->
+        <nav class="navbar bg-transparent navbar-dark">
+            <div class="container f-barlow">
+                <a class="navbar-brand fs-4 text-dark" href="#">MUNDO FELINO SHOP</a>
+                <div class="d-flex justify-content-center align-items-center flex-column flex-lg-row gap-3">
+                    <a href="/index.html"
+                        class="text-dark text-decoration-none px-3 py-1 bg-danger-subtle rounded-4">Regresar</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Login Section-->
+    <div class="register-box d-flex justify-content-center">
+        <div class="container f-poppin d-flex justify-content-center justify-content-lg-start align-items-center">
+            <div class="register p-3">
+                <div class="text-center">
+                    <p>Registrate con:</p>
+                </div>
+                <div class="social-media-field d-flex justify-content-center align-items-center gap-3 fs-3 mb-3">
+                    <a
+                        href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fcontacts.google.com%2F%3Fhl%3Des&followup=https%3A%2F%2Fcontacts.google.com%2F%3Fhl%3Des&hl=es&ifkv=ASKXGp2a4X507_GGFSf7I0Zp2YvVp3wGActaYo2dPNW2KlspYUIihsCEEzuaKKad1yI8dTm8iHtczQ&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1710526505%3A1701188928705827&theme=glif"><i
+                            class="bi bi-google"></i></a>
+                    <a href="https://www.facebook.com/?locale=es_LA"><i class="bi bi-facebook"></i></a>
+                    <a href="https://twitter.com/?lang=es"><i class="bi bi-twitter-x"></i></a>
+                    <a href="https://www.instagram.com"><i class="bi bi-instagram"></i></a>
+                </div>
+                <div class="text-center">
+                    <p>O ingresa tus datos:</p>
+                </div>
+                <div class="input-field d-flex mb-3 flex-column">
+                    <input type="text" class="form-control rounded-4 w-100 text-center" placeholder="Nombre de usuario"
+                        required>
+                </div>
+                <div class="input-field d-flex mb-3 flex-column">
+                    <input type="text" class="form-control rounded-4 w-100 text-center" placeholder="Email" required>
+                </div>
+                <div class="input-field  d-flex mb-3 flex-column">
+                    <input type="password" class="form-control rounded-4 w-100 text-center" placeholder="Contraseña"
+                        required>
+                </div>
+                <div class="input-field d-flex mb-3 flex-column">
+                    <input type="password" class="form-control rounded-4 w-100 text-center"
+                        placeholder="Repetir Contraseña" required>
+                </div>
+                <div class="input-field d-flex mb-3 justify-content-center">
+                    <input type="submit" class="btn  w-50 rounded-4 btn-register" value="Registrarme">
+                </div>
+                <div class="right text-center">
+                    <span class="fs-6"><small>¿Ya tienes una cuenta? <a style="color:  #524e5d;"
+                                href="/pages/login.html">Iniciar Sesión</a></small></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
 
 </html>

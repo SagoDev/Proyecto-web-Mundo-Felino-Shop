@@ -35,7 +35,10 @@ body {
     box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
 }
 
-i {
+.social-media-field .bi{
+    color:  rgba(255, 255, 255, 0.7);
+}
+.input-field i {
     position: relative;
     top: -40px;
     left: 17px;

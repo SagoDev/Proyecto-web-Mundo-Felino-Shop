@@ -6,3 +6,34 @@ body {
     background-size: cover;
 
 }
+
+.form-control {
+    background: rgba(255, 255, 255, 0.6) !important;
+    border: none;
+    outline: none !important;
+    width: 87%;
+    height: 45px;
+}
+
+.register {
+    width: 400px;
+    height: 300px;
+}
+
+.register-box {
+    height: 75vh;
+}
+
+.btn-register {
+    background-color: #8f7aaf !important;
+    transition: .3s;
+    border: none !important;
+}
+
+.btn-register:hover {
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.bi {
+    color: #67597e;
+}

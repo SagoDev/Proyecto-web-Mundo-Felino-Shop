@@ -35,37 +35,48 @@
         </nav>
     </header>
     <!--Login Section-->
-    <div class="login-box d-flex justify-content-center align-items-center">
-        <div class="container f-poppin d-flex justify-content-center align-items-center">
+    <div class="login-box">
+        <div class="container f-poppin d-flex justify-content-center justify-content-lg-end align-items-center">
             <div class="login p-3">
                 <div class="top-header p-3">
                     <header class="text-center text-dark fs-3">Iniciar Sesión</header>
+                </div>                
+                <div class="social-media-field d-flex justify-content-center align-items-center gap-3 fs-3 mb-3">
+                    <a
+                        href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fcontacts.google.com%2F%3Fhl%3Des&followup=https%3A%2F%2Fcontacts.google.com%2F%3Fhl%3Des&hl=es&ifkv=ASKXGp2a4X507_GGFSf7I0Zp2YvVp3wGActaYo2dPNW2KlspYUIihsCEEzuaKKad1yI8dTm8iHtczQ&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1710526505%3A1701188928705827&theme=glif"><i
+                            class="bi bi-google"></i></a>
+                    <a href="https://www.facebook.com/?locale=es_LA"><i class="bi bi-facebook"></i></a>
+                    <a href="https://twitter.com/?lang=es"><i class="bi bi-twitter-x"></i></a>
+                    <a href="https://www.instagram.com"><i class="bi bi-instagram"></i></a>
+                </div>
+                <div class="text-center">
+                    <p>O ingresa tus datos:</p>
                 </div>
                 <div class="input-field d-flex flex-column">
                     <input type="text" class="form-control rounded-4 w-100" placeholder="Usuario" required>
                     <i class="bi bi-person fs-4"></i>
                 </div>
-                <div class="input-field mb-3 d-flex flex-column">
+                <div class="input-field d-flex flex-column">
                     <input type="password" class="form-control rounded-4 w-100" placeholder="Contraseña" required>
                     <i class="bi bi-lock fs-4"></i>
                 </div>
-                <div class="input-field mb-3 d-flex flex-column">
-                    <input type="submit" class="btn  w-100 rounded-4 btn-login" value="Iniciar Sesión">
+                <div class="left d-flex justify-content-between  mb-3">
+                    <div class="box-1">
+                        <input type="checkbox" class="form-check-input" id="check">
+                        <label for="check" class="form-check-label">Recuérdame</label>
+                    </div>
+                    <div class="box-2">
+                        <label for=""><a style="color:  #524e5d;" href=""><small>¿Olvidaste tu
+                                    Contraseña?</small></a></label>
+                    </div>
+                </div>
+                <div class="input-field d-flex mb-3 justify-content-center">
+                    <input type="submit" class="btn w-50 rounded-4 btn-login" value="Iniciar Sesión">
                 </div>
                 <div class="bottom">
-                    <div class="left d-flex justify-content-between mb-3">
-                        <div class="box-1">
-                            <input type="checkbox" class="form-check-input" id="check">
-                            <label for="check" class="form-check-label">Recuérdame</label>
-                        </div>
-                        <div class="box-2">
-                            <label for=""><a style="color:  #524e5d;" href=""><small>¿Olvidaste tu
-                                        Contraseña?</small></a></label>
-                        </div>
-                    </div>
                     <div class="right text-center">
                         <span class="fs-6"><small>¿No tienes una cuenta? <a style="color:  #524e5d;"
-                                    href="">Registrarme</a></small></span>
+                                    href="/pages/register.html">Registrarme</a></small></span>
                     </div>
                 </div>
             </div>
