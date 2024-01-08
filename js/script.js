@@ -54,6 +54,7 @@ function showProducts(products, property) {
                   <p>${product.descripcion}</p>
                   <h3 class="card-text"><strong>$${product.precio}</strong></h3>
                   <p><small>(${product.reviews} reviews)</small></p>
+                  <a href="#" class="btn btnBuy">Comprar</a>
                 </div>
               </div>                
   `;
