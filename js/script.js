@@ -1,5 +1,5 @@
-const HEALTHCARE_JSON = '../json/healthcare.json';
-const TOYS_JSON = '../json/toys.json';
+const HEALTHCARE_JSON = 'https://github.com/SagoDev/Proyecto-web-Mundo-Felino-Shop/blob/main/json/healthcare.json';
+const TOYS_JSON = 'https://github.com/SagoDev/Proyecto-web-Mundo-Felino-Shop/blob/main/json/toys.json';
 
 function getData(JSON, proper) {
   fetch(JSON)
