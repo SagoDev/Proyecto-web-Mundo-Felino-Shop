@@ -7,7 +7,7 @@
 
 ## Descripción 📑
 
-Este proyecto tiene como finalidad crear un sitio web para un negocio de insumos para gatos ficticio que realiza ventas de juguetes, servicios de cuidados y productos varios para gatos, la nombré Mundo Felino Shop. El foco principal estará en el desarrollo mediante HTML, CSS y el  framework bootstrap. Adicional a eso pienso desarrollar algunas funcionalidades de compra con JavaScript.
+Este proyecto tiene como finalidad crear un sitio web para un negocio de insumos para gatos ficticio que realiza ventas de juguetes, servicios de cuidados y productos varios para gatos, la nombré Mundo Felino Shop. El foco principal estará en el desarrollo mediante HTML, CSS y el  framework bootstrap. Adicional a eso pienso desarrollar algunas funcionalidades con JavaScript.
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻 
 
