@@ -1,5 +1,5 @@
-const HEALTHCARE_JSON = '/json/healthcare.json';
-const TOYS_JSON = '/json/toys.json';
+const HEALTHCARE_JSON = '../json/healthcare.json';
+const TOYS_JSON = '../json/toys.json';
 
 function getData(JSON, proper) {
   fetch(JSON)
