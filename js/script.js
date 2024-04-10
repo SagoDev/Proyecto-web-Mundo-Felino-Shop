@@ -2,7 +2,14 @@ const HEALTHCARE_JSON = 'https://github.com/SagoDev/Proyecto-web-Mundo-Felino-Sh
 const TOYS_JSON = 'https://github.com/SagoDev/Proyecto-web-Mundo-Felino-Shop/blob/main/json/toys.json';
 
 function getData(JSON, proper) {
-  fetch(JSON)
+  fetch(JSON,{
+  method: 'GET',
+  mode: 'no-cors',
+  headers: {
+    'Content-Type': 'application/json'
+    // Agrega cualquier otra cabecera que necesites aquí
+  }
+})
     .then(response => response.json())
     .then(data => {
       showProducts(data, proper);
