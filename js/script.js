@@ -6,8 +6,7 @@ function getData(JSON, proper) {
   method: 'GET',
   mode: 'no-cors',
   headers: {
-    'Content-Type': 'application/json'
-    // Agrega cualquier otra cabecera que necesites aquí
+    'Content-Type': 'application/json'    
   }
 })
     .then(response => response.json())
